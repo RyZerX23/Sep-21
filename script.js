@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    const audio = new Audio('../CNCO_ Yandel - Hey DJ[AMV] Hiraku Dear Moments 👌😎(MP3_128K).mp3');
+    const audio = new Audio('CNCO_ Yandel - Hey DJ[AMV] Hiraku Dear Moments 👌😎(MP3_128K).mp3');
     let isPlaying = false;
 
     function toggleAudio() {
@@ -109,3 +109,4 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
 });
+
